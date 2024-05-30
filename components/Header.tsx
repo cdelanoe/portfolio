@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Section } from "./Section";
 import { GithubIcon } from "./icons/GithubIcon";
 import { LinkedInIcon } from "./icons/LinkedInIcon";
+import { ModeToggle } from "./ModeToggle";
 
 export const Header = () => {
   return (
@@ -26,6 +27,7 @@ export const Header = () => {
           >
             <LinkedInIcon size={16} className="text-foreground" />
           </Link>
+          <ModeToggle />
         </ul>
       </Section>
     </header>
